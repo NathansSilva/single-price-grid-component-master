@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: hsl(179, 62%, 43%);
+}
+
+p{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.principal p{
+    line-height: 12px;
+    color: hsl(218, 22%, 67%);
+}
+
+.sml{
+    color: hsl(179, 43%, 75%);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.big{
+    font-size: 42px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.yellow-txt{
+    color: hsl(71, 73%, 54%);
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    opacity: 0.7;
+}
+
+ul li{
+    line-height: 25px;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+section{
+    padding: 35px;
+}
+
+.price-info{
+    background-color: #2AB2AF;
+    color: #fff;
+}
+
+.about-info{
+    background-color: #4BBEBB;
+    color: #fff;
+}
+
+
+.info-card{
+    display: flex;
+}
+
+.info-card > section{
+    flex: 1;
+}
+
+.btn-call{
+    font-family: 'karla', sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, .1);
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: hsl(71, 73%, 54%);
+    width: 275px;
+    padding: 15px 0;
+}
+
+footer{
+        position: absolute;
+        bottom: 0;
+        right: 60px;
+        font-size: 15px;
+}
+
+
+@media only screen and (min-width: 788px) and (max-width: 979px){
+    .info-card{
+        flex-direction: column;
+        text-align:center;
+    }
+
+    .container{
+        text-align: center;
+    }
+
+    .info-card span{
+        padding-left: 220px;
+    }
+
+    .price-info .about-info{
+        text-align: center;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        right: 60px;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 787px){
+    .info-card{
+        flex-direction: column;
+        float: left;
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .container{
+        width: 400px;
+        height: 915px;
+    }
+
+    .info-card span{
+        padding-left: 80px;
+    }
+
+    .btn-call{
+        padding-left:20px ;
+    }
+
+    .principal p{
+        line-height: 20px;
+    }
+
+    footer{
+        bottom: 0;
+        right: 60px;
+        overflow: hidden;
+    }
+}
