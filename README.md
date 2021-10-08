@@ -5,6 +5,13 @@ Done on 01/14/2021.
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
+![Design done for the Single Price Grid Component coding challenge](./design/desktop-design.jpg)
+
+![Design preview for the Single Price Grid Component coding challenge](./design/tablet-design.jpg)
+
+![Design preview for the Single Price Grid Component coding challenge](./design/mobile-design.jpg)
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
